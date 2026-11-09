@@ -379,3 +379,154 @@ Checkpoint: report version 22. Page 41 now flags that its scenario summary uses 
 - The extracts show selected Joint receipts and payments and closing balances; selected Bills income, spending and closing balance; selected Trust Cash transfers and balances; and selected UK account amounts. The 2028 page additionally shows the closing HELOC debt; the 2029–2032 pages show CTP receipts, net RMD available for spending, reserve/Trust transfers and UK cash after travel commitments where applicable.
 - Omitted from the extracts are the full monthly individual Bills line items; all personal and grocery-account movements and balances; detailed Trust earmark opening balances, contributions, payments, top-ups and closing balances; the detailed 2028 HELOC draws, principal, interest and temporary-borrowing movements; detailed RMD/tax and Trust-interest calculations; annual totals, source notes, movement checks and the other diagnostic rows. Some of these figures appear as averages elsewhere in the report, but their complete month-by-month detail and checks remain in the workbook.
 - The original 50 report pages have been updated, but the item-by-item financial and chart audit remains open. Do not mark the report final solely because the hidden-text cleanup is done.
+
+## Figure and chart audit checkpoint — 9 November 2026
+
+Workbook V68, library version 162; report working PDF version 24. These are source comparisons, not an independent audit of the workbook's assumptions or formulas.
+
+- Checked 3,867 displayed table entries against workbook cells, with no mismatches at displayed rounding: pages 7–14, 30–34, 37–42, 51–55, plus specified Bills/account-table items on pages 23, 45, 47, 48 and 50. The check on each account page covers the extracted mapped items, not every figure on that page. Appendix O accounts for 1,296 of the comparisons.
+- Page 3 waterfall labels were compared to Cash surplus bridges; the bridge checks are zero. Pages 4–6 waterfall printed annual and monthly values were compared to the Comparison and 2028/2031 waterfall worksheets. Page 17's 5% joint outcome and 2032 percentile callout were compared to the fixed Monte Carlo snapshot. The plotted Monte Carlo paths/bands still require a complete visual data check, as do remaining chart elements and any figures not covered by the detailed table checks.
+- Page 39's timing table and page 42's 2027 building-only and 2028 HELOC tables were checked. The different 2027 building-only and full account-ledger closing balances remain explicitly identified. Page 40 uses payment timing, whereas page 41 uses the separate property-tax reserve timing scenario, as described in the report.
+- Still outstanding: finish the individual figure checks for pages not included above (especially assumptions, narrative callouts and remaining account figures), verify each chart including the home chart and Monte Carlo bands and survivor paths, and carry out a final page-by-page check before removing the work-in-progress status. No report edits were made during this checkpoint.
+
+## Completed figure and chart audit — 9 November 2026
+
+- Continued the prior checkpoint against workbook version 162. Checked the remaining displayed assumption inputs, benefits and RSUs, starting balances, summary callouts, 2027 and 2028 account tables, the other-account panels and the 2027, 2028, 2029 and 2032 account diagrams. The automated comparisons total more than 4,000 displayed entries, including the earlier detailed schedules and ledger extracts; repeated displays count separately.
+- The home-value bar heights were compared with all seven Home and pension value annual projections, and their displayed values and renovation costs were checked. Cash-surplus and income waterfall labels and their directions were compared with the workbook bridge and waterfall sheets. The 5% joint and both survivor Monte Carlo median lines and all four percentile boundaries were compared across the plotted years with the workbook snapshots; differences were within three pixels at the inspection scale. Simulation table percentages and summary results match Simulation comparison.
+- Corrected the page 1 statement that pensions and expenses rise uniformly by 2.5% a year: item-specific workbook assumptions apply. The replacement follows the existing position and typography. No financial assumptions or calculations were added to the report.
+- The figure/chart audit checks report presentation against the workbook and snapshots; it does not independently validate the workbook's financial assumptions or formulas. The report continues to identify the 2027 monthly scenario versus annual overview differences, and distinguishes the building-only HELOC schedule from the full ledger.
+- Appendix O remains selected ledger extracts, not the full ledgers. The dense account pages retain their existing layout and smaller type; any redesign is for Ian to decide. The report retains its work-in-progress label for his review.
+
+## Page 1 callouts and transition reserve — 9 November 2026
+
+- Restored the four upper callouts: transition reserve, end-2031 Trust Cash including earmarks, 2032 investments and home renovation. The 2032 cash surplus and vacation budget appear in two callouts under Our life in retirement, following the V67 arrangement while retaining the current report's content and design.
+- The 2027–28 transition paragraph now identifies the transition reserve and shows $12,100 contributed in 2027 plus $18,900 in 2028, reaching $31,000 at the start of 2029. Figures are from the V68 workbook, including Buffer Fund and the account ledgers. On later updates refresh both the annual contributions and the total, not just the monthly figures.
+- The revised first page was rendered and checked; remaining report pages retain their existing text and page order. The report remains a work in progress for Ian's review. No decision has been made about restructuring or splitting the report.
+
+## Page samples and review decisions — 9 November 2026
+
+- **Page 1 readability sample approved by Ian:** Page_1_Readability_Sample.pdf, https://chatgpt.com/library?file_id=libfile_56fd9c7655088191b042c6bad2ee0d71&account_id=personal. This approved sample has not yet been incorporated into the main report. Preserve the four upper callouts, both retirement callouts, all material and the clearly explained transition-reserve contribution totals. Recheck figures against the active workbook before final assembly.
+- **Pages 2–3 merger withdrawn by Ian:** Pages_2_3_Combined_Sample.pdf, https://chatgpt.com/library?file_id=libfile_389695781e088191bd371313e4aa1fc7&account_id=personal. Ian was looking at an old version and asked to disregard the merger. The sample was not incorporated. Keep the current pages 2 and 3 separate unless Ian later requests otherwise.
+- Main report remains Our_Retirement_Plan_V68_WORK_IN_PROGRESS.pdf, https://chatgpt.com/library?file_id=libfile_f75f1315f69081919b3169491f891f56&account_id=personal. Preserve each approved sample separately. Apply the approved changes together at assembly, then update contents, page numbers, workbook mapping and all cross-references and check material completeness and figures. Ian has not approved the broader split or restructuring proposals.
+
+## Approved transition page — 9 November 2026
+
+- Ian approved the latest Transition_to_Retirement_Sample.pdf (Library revision 3): https://chatgpt.com/library?file_id=libfile_86a2156741b88191b17f12dc74b94feb&account_id=personal. Use this as the approved treatment of current report page 7 when assembling the main report; its final position and page number are still to be determined.
+- The sample includes the table dividers and the three notes on the 2026 baseline, RMDs, and the July–December 2029 six-month average. Preserve its data, callouts and design. Check all figures against the current workbook at final assembly.
+- The original page 7 and other report pages have not yet been replaced or reordered. Page 1's readability sample remains approved. The prior pages 2–3 merger is withdrawn.
+
+## Reorganised working report — 9 November 2026
+
+Ian approved reorganising the existing report now. Keep the approved page 1 and transition samples and all bridges. Do not treat this as approval of the wider proposal to split the document or remove any other material.
+
+- New order: 1 approved page 1; 2 approved transition page (formerly 7); 3–5 the original income bridges (formerly 4–6); 6 the original paired surplus bridges (formerly 3); 7 household budget (formerly 8); 8 2027 spending choices (formerly 9); 9–21 former pages 11–23 in their existing order; 22 the original annual surplus chart (formerly 2); 23 the appendix guide (formerly 24); 24 the 2032 spending choices (formerly 10), moved to the appendix at Ian's direction; 25–55 retain their former page numbers.
+- Both original sample decisions remain saved separately. Current printed page numbers and references in the PDF are updated. The appendix guide includes 2032 spending choices on page 24. Recheck page references if the report is restructured further.
+- The workbook's Report source map uses the earlier source page numbers: use the old-to-new mapping above when refreshing report pages. The financial master remains unchanged; update that workbook map when the report's structure is agreed rather than assuming its page numbers describe the reorganised document.
+- The graphics of the four bridge pages were checked against their originals; the printed chart regions match exactly. The approved transition sample intentionally uses the three notes Ian selected; preserve the underlying tax, RSU and 2026 detail in the workbook and supporting material.
+
+## Approved combined income bridges — 9 November 2026
+
+- Ian approved Side_by_Side_Income_Bridges_Sample.pdf, Library revision 2: https://chatgpt.com/library?file_id=libfile_3c4cc93907d0819199e0b40e8ba613f1&account_id=personal. It combines current report pages 4–5, with notes in two columns beneath their respective bridges. It has not yet been incorporated into the main report.
+- Preserve the annual detail tables currently on pages 4–5 in the supporting material when assembling; the sample shows the monthly bridge figures and does not reproduce the annual tables. Recheck workbook figures and page numbering. The sample uses a wider page size than the report; adapt to the report's existing page size and visually verify readability before incorporating it.
+
+## Cash-surplus waterfalls moved — 9 November 2026
+
+- At Ian's direction the paired cash-surplus waterfalls (previous working-report page 6) now follow the investment accounts page: investments are page 11 and waterfalls page 12. The annual cash-surplus chart remains page 22.
+- The formerly numbered pages 7–12 are now pages 6–11; subsequent page numbers are unchanged. References affected by the move were adjusted in the PDF. The waterfall chart region was verified visually identical to the prior report.
+- The approved combined income-bridges sample remains separate and is not yet incorporated; its original pages remain 4–5 until assembly. The workbook source map still uses pre-reorganisation page references; this note and the previous reorganisation checkpoint record the sequence of mappings.
+
+## Annual surplus chart moved — 9 November 2026
+
+- At Ian's direction the annual cash-surplus chart (previous working-report page 22) now follows the paired surplus waterfalls: investments page 11, waterfalls page 12, annual chart page 13. All three are retained for Ian to review for possible redundancy.
+- Previous report pages 13–21 are now pages 14–22; pages 23–55 are unchanged. Updated affected page numbers and references. The annual chart region is visually identical to its prior version. The workbook source map still uses original report page numbers; apply the sequence of mappings in these notes until the structure is agreed.
+- The approved combined income bridge sample remains separate, not yet incorporated.
+
+## Approved income bridges incorporated — 9 November 2026
+
+- Incorporated the approved side-by-side 2028–29 and 2031–32 income bridges as page 4 of the main report, with the approved two-column commentary. The chart was rebuilt from workbook waterfall cells at the report's standard page size and visually checked; monthly amounts use the workbook waterfall rows 34–42. The annual bridge details and original versions of the two pages remain in the appendices at pages 55 and 56.
+- Previous pages 6–55 are now pages 5–54. Previous pages 4 and 5 are now appendix pages 55 and 56. Updated page labels, cross-references and the appendix guide; the report has 56 pages. The paired cash-surplus waterfalls remain immediately before the annual cash-surplus chart, now pages 11 and 12; investment accounts is page 10.
+- Status check against recorded decisions: the approved page 1 and transition page are incorporated, the combined bridge is incorporated, and the cash-surplus pages are grouped after investment accounts. The suggested earlier merger of the surplus pages was withdrawn. No broader splitting or removal has been approved. The workbook's report source map retains its original page references; the sequence of old-to-new mappings here is required when updating until final structure and workbook map are synchronised.
+
+## Report structure after Ian's review — 9 November 2026
+
+- Ian agreed to move former page 9 (survivor annual detail), page 12 (annual surplus chart) and page 16 (living-alone Monte Carlo charts) to the appendix. These are now pages 19, 20 and 21, respectively. The joint Monte Carlo remains in the main report, now page 13, and the 2032 individual comparison remains page 8.
+- The illustrative combined-value page remains in the main report as a feel-good overview, following the home page; it is now page 12. Its explanations distinguish pension value from accessible account balances.
+- The 2027 account-flow diagram and account budget remain in the main report at pages 16–17: Ian explained these are a major intended outcome for Stacey. The former page 19, before-interest transition summary, was removed from the report as duplicate; its underlying data remains in the workbook.
+- The appendix guide, printed numbers and references were updated. This is a 55-page working report, with 17 main pages, an appendix guide on page 18, and supporting pages 19–55. Annual income-bridge detail remains on pages 54–55. The workbook report source map retains the original report's page numbers; update it once the structure has been agreed. Original-to-current mapping remains traceable from successive checkpoints in these notes.
+
+## Combined actions and appendix navigation — 9 November 2026
+
+- Ian approved Combined_Actions_Sample.pdf revision 3; it replaces former main-report pages 14–15 with one page at 14. It retains the monthly transfer table, January extra, annual transfer review, key 2029/July checkpoints, survivor access, RMD, healthcare and account actions. The main report is 16 pages; the account-flow pages are 15–16.
+- At Ian's request every supporting section is lettered, A–T. The first four are prioritised to follow the main report: A 2032 spending (18), B living-alone forecast (19), C annual cash-surplus chart (20), D living-alone Monte Carlo (21). E planning assumptions (22), F expense inputs (23–26), G expense detail (27–29), H tax (30), I annual reconciliation (31), J benefits/RSUs (32), K starting accounts (33), L purchasing power (34), M savings commitments (35), N 2029 reserve (36), O 2027 monthly budget (37–38), P HELOC (39), Q contingencies (40), R account flows (41–47), S later-year ledgers (48–52), T detailed income bridges (53–54).
+- This list supersedes appendix letters and page numbers in older checkpoints above. The appendix guide and report cross-references were updated; all 20 section headings and 23 automatically identifiable letter-and-page references were checked. The workbook's Report source map still uses the design-master page numbers by design; use the historical page mappings in these notes until a current-report mapping has been added. No financial workbook data or formulas were changed.
+
+
+## Original and current report pages — 9 November 2026
+
+This two-column crosswalk compares the 50-page design master `Retirement_Plan_V6.pdf` with the current 54-page V68 working report. Page numbers below are the printed numbers in the current single PDF; the report has not been split. This list records page locations, not financial mappings. No hidden keys have been added.
+
+| Original design-master page | Current location |
+|---|---|
+| 1 — Executive summary | Main report, page 1 |
+| 2 — Annual cash surplus | Appendix C, page 20 |
+| 3 — Cash-surplus waterfalls | Main report, page 10 |
+| 4 — 2026–27 income bridge | Main report, page 3 |
+| 5 — 2028–29 income bridge | Main report, page 4; Appendix T, page 53 (combined main bridge and original detailed page) |
+| 6 — 2031–32 income bridge | Main report, page 4; Appendix T, page 54 (combined main bridge and original detailed page) |
+| 7 — Transition cash flow | Main report, page 2 |
+| 8 — Household budget | Main report, page 5 |
+| 9 — 2027 spending choices | Main report, page 6 |
+| 10 — 2032 spending choices | Appendix A, page 18 |
+| 11 — Retirement forecast to 2042 | Main report, page 7 |
+| 12 — Living-alone comparison | Main report, page 8 |
+| 13 — Living-alone forecast | Appendix B, page 19 |
+| 14 — Investment accounts | Main report, page 9 |
+| 15 — Home value and renovation | Main report, page 11 |
+| 16 — Overall financial picture | Main report, page 12 |
+| 17 — Joint Monte Carlo | Main report, page 13 |
+| 18 — Living-alone Monte Carlo | Appendix D, page 21 |
+| 19 — Manage the plan | Main report, page 14 (combined actions page) |
+| 20 — Plan and next steps | Main report, page 14 (combined actions page) |
+| 21 — How cash flows change | Removed from the report; its underlying figures remain in the workbook. |
+| 22 — 2027 account-flow diagram | Main report, page 15 |
+| 23 — 2027 account budget | Main report, page 16 |
+| 24 — Appendix guide | Appendix guide, page 17 |
+| 25 — Planning assumptions | Appendix E, page 22 |
+| 26 — Expense inputs 1 | Appendix F, page 23 |
+| 27 — Expense inputs 2 | Appendix F, page 24 |
+| 28 — Expense inputs 3 | Appendix F, page 25 |
+| 29 — Expense controls | Appendix F, page 26 |
+| 30 — Individual expenses 1 | Appendix G, page 27 |
+| 31 — Individual expenses 2 | Appendix G, page 28 |
+| 32 — Individual expenses 3 | Appendix G, page 29 |
+| 33 — Tax calculation | Appendix H, page 30 |
+| 34 — Annual cash reconciliation | Appendix I, page 31 |
+| 35 — Benefits and RSUs | Appendix J, page 32 |
+| 36 — Starting accounts and returns | Appendix K, page 33 |
+| 37 — Purchasing power | Appendix L, page 34 |
+| 38 — Savings commitments | Appendix M, page 35 |
+| 39 — 2029 reserve use | Appendix N, page 36 |
+| 40 — 2027 monthly income | Appendix O, page 37 |
+| 41 — 2027 expenses and HELOC | Appendix O, page 38 |
+| 42 — HELOC and building | Appendix P, page 39 |
+| 43 — Contingencies | Appendix Q, page 40 |
+| 44 — 2028 account flow | Appendix R, page 41 |
+| 45 — 2028 account budget | Appendix R, page 42 |
+| 46 — 2029 account flow | Appendix R, page 43 |
+| 47 — 2029 January–June budget | Appendix R, page 44 |
+| 48 — 2029 July–December budget | Appendix R, page 45 |
+| 49 — 2032 account flow | Appendix R, page 46 |
+| 50 — 2032 account budget | Appendix R, page 47 |
+| Added — 2028 monthly ledger extract | Appendix S, page 48 |
+| Added — 2029 monthly ledger extract | Appendix S, page 49 |
+| Added — 2030 monthly ledger extract | Appendix S, page 50 |
+| Added — 2031 monthly ledger extract | Appendix S, page 51 |
+| Added — 2032 monthly ledger extract | Appendix S, page 52 |
+
+### Page-list validation — 9 November 2026
+
+Checked the two-column list above against the 50-page design-master PDF and the current 54-page working PDF, without using the workbook. Confirmed all 50 original pages occur once in the list, the five additional annual ledger extracts point to the correct years, and each appendix letter matches the heading on the destination page. Confirmed both combined income bridges on current page 4 and their original detailed pages 53–54; confirmed the original actions pages 19–20 are combined on current page 14, and original page 21 is absent as recorded. The report remains one PDF. This validates page locations and section labels, not the financial figures or the eventual split.
+
+## V68 checkpoint — 9 November 2026
+
+At Ian's request removed the work-in-progress and draft footer markings on all 54 pages and named the report Our_Retirement_Plan_V68.pdf. Every page now uses the footer “Our Retirement Plan V68”. All page content above the footer was compared with the previous version and is visually unchanged. The report remains a single PDF and the current page list above still applies. No financial figures or workbook mappings were changed; the original-to-current page list remains in these notes.
